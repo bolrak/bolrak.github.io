@@ -12,7 +12,7 @@ export const Contact = () => {
   };
 
   const [formDetails, setformDetails] = useState(formInitialDetails);
-  const [buttonText, setButtonText] = useState("Send");
+  const [buttonText, setButtonText] = useState("Acceder al Formulario de contacto");
   const [status, setStatus] = useState({});
 
   const onFormUpdate = (category, value) => {
@@ -33,52 +33,12 @@ export const Contact = () => {
             <img src={contactImg} alt="Contactame" />
           </Col>
           <Col md={6}>
-            <h2>Get In Touch</h2>
+            <h2>Ponerse en Contacto</h2>
             <form onSubmit={handleSubmit}>
               <Row>
-                <Col sm={6} className="px-1">
-                  <input
-                    type="text"
-                    value={formDetails.firstName}
-                    placeholder="Primer Nobre"
-                    onChange={(e) => onFormUpdate("firstName", e.target.value)}
-                  />
-                </Col>
-
-                <Col sm={6} className="px-1">
-                  <input
-                    type="text"
-                    value={formDetails.lastName}
-                    placeholder="Apellidos"
-                    onChange={(e) => onFormUpdate("lastName", e.target.value)}
-                  />
-                </Col>
-                <Col sm={6} className="px-1">
-                  <input
-                    type="text"
-                    value={formDetails.email}
-                    placeholder="Correo Electrónico"
-                    onChange={(e) => onFormUpdate("email", e.target.value)}
-                  />
-                </Col>
-
-                <Col sm={6} className="px-1">
-                  <input
-                    type="text"
-                    value={formDetails.phone}
-                    placeholder="Número Telefónico"
-                    onChange={(e) => onFormUpdate("phone", e.target.value)}
-                  />
-                </Col>
-                <Col>
-                  <textarea
-                    row="6"
-                    value={formDetails.message}
-                    placeholder="Mensaje"
-                    onChange={(e) => onFormUpdate("message", e.target.value)}
-                  />
-                  <button type="submit"><span>{buttonText}</span></button>
-                </Col>
+        <Col>
+                <a target="_blank" rel="noreferrer" href="https://docs.google.com/forms/d/e/1FAIpQLSdjk1Bq-aH20DY0ea1OkOK0CHzx0Xu3HnVWgSFWYKoNmGGAMw/viewform?usp=sf_link"><button type="button"><span>{buttonText}</span></button>
+                </a></Col>
                 {
                   status.message &&
                   <Col>
