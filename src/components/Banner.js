@@ -78,11 +78,7 @@ export const Banner = () => {
             {/* Componente TrackVisibility para detectar si el elemento es visible en la pantalla */}
             <TrackVisibility>
               {({ isVisible }) => (
-                <div
-                  className={
-                    isVisible ? "animate__animated animate__fadeIn" : ""
-                  }
-                >
+                <div className={isVisible ? "animate__animated animate__fadeIn" : ""}>
                   {/* Etiqueta span para mostrar un mensaje de bienvenida */}
                   <span className="tagline">Bienvenido/a a mi portafolio</span>
                   {/* Etiqueta h1 para mostrar el nombre del propietario del sitio */}
