@@ -1,0 +1,6 @@
+I would like to express my gratitude to Webdecoded for providing a tutorial on how to create a significant part of this website.
+They have also generously provided the necessary materials for its operation. 
+You can check out their YouTube channel at https://www.youtube.com/@webdecoded.
+
+
+.Thanks to https://freeicons.io/icon-list/business-6  for the github logo

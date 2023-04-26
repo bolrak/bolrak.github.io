@@ -33,10 +33,9 @@ export const Skills = () => {
         <Row>
           <Col>
             <div className="skill-bx">
-              <h2>Skills</h2>
+              <h2>Habilidades</h2>
               <p>
-                Ut lorem consetetur gubergren accusam accusam sit voluptua
-                dolores sadipscing invidunt no voluptua nonumy.<br></br>
+               Lenguajes y Frameworks con los que he trabajado.<br></br>
               </p>
               <Carousel
                 responsive={responsive}
@@ -45,19 +44,31 @@ export const Skills = () => {
               >
                 <div className="item">
                   <img src={meter1} alt="Image" />
-                  <h5> Web Development</h5>
+                  <h5> Javascript</h5>
                 </div>
                 <div className="item">
                   <img src={meter2} alt="Image" />
-                  <h5> Brand Identify</h5>
+                  <h5> Python</h5>
                 </div>
                 <div className="item">
                   <img src={meter3} alt="Image" />
-                  <h5> Logo Design</h5>
+                  <h5> PHP</h5>
                 </div>
                 <div className="item">
                   <img src={meter1} alt="Image" />
-                  <h5> Web Development</h5>
+                  <h5> React</h5>
+                </div>
+                <div className="item">
+                  <img src={meter1} alt="Image" />
+                  <h5> Laravel</h5>
+                </div>
+                <div className="item">
+                  <img src={meter1} alt="Image" />
+                  <h5> Symfony</h5>
+                </div>
+                <div className="item">
+                  <img src={meter1} alt="Image" />
+                  <h5> Django</h5>
                 </div>
               </Carousel>
             </div>

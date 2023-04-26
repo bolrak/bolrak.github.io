@@ -17,10 +17,12 @@ export const Footer = () => {
                     <Col sm={6} className="text-center text-sm-end">
                         <br/>
                         <div className="social-icon">
-                            <a href="#home"><img src={navIcon1} /></a>
-                            <a href="#home"><img src={navIcon2} /></a>
-                            <a href="#home"><img src={navIcon3} /></a>
-
+                        <a href="https://www.linkedin.com/in/pablo-inzunza-morales-b9599a150"  target="_blank">
+                <img src={navIcon1} alt="Linkedin" />
+              </a>
+              <a href="https://github.com/bolrak" target="_blank">
+                <img src={navIcon3} alt="Github" />
+              </a>
                         </div>
                         <p>CopyRight 2023. All right reserved. Pablo Inzunza.</p>
                     </Col>

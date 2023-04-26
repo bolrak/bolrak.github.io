@@ -49,23 +49,25 @@ export const Projects = () => {
               {({ isVisible }) => 
                 <div className={isVisible ? "animate__animated animate__bounce" : ""}>
                   
-            <h2>Projects</h2>
-            <p>
-              Ut lorem consetetur gubergren accusam accusam sit voluptua dolores
-              sadipscing invidunt no voluptua nonumy.
-            </p>
+                  <div className="text-center">
+    <h2>Proyectos y Capacitaciones</h2>
+    <p>
+      A continuación, podrás ver algunos de los trabajos realizados, tanto proyectos personales 
+      como aquellos en los que he participado, así como los certificados obtenidos por los cursos realizados.
+    </p>
+  </div>
                 </div> }
                 </TrackVisibility>
             <Tab.Container id="projects-tabs" defaultActiveKey="first">
               <Nav variant="pills" className="nav-pills mb-5 justify-content-center align-items-center" id="pills-tab">
                 <Nav.Item>
-                  <Nav.Link eventKey="first">Tab One</Nav.Link>
+                  <Nav.Link eventKey="first">Empleo</Nav.Link>
                 </Nav.Item>
                 <Nav.Item>
-                  <Nav.Link eventKey="second">Tab Two</Nav.Link>
+                  <Nav.Link eventKey="second">Personales</Nav.Link>
                 </Nav.Item>
                 <Nav.Item>
-                  <Nav.Link eventKey="third">Tab three</Nav.Link>
+                  <Nav.Link eventKey="third">Cursos</Nav.Link>
                 </Nav.Item>
               </Nav>
               <Tab.Content>

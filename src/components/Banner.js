@@ -103,12 +103,12 @@ export const Banner = () => {
                     siempre en busca de oportunidades para crecer
                     profesionalmente.
                   </p>
-                  {/* Botón para conectarse */}
-                  <button onClick={() => console.log("connect")}>
-                    Let’s Connect
-                    {/* Icono de flecha hacia la derecha */}
-                    <ArrowRightCircle size={25} />
-                  </button>
+                  {/* Botón para conectarse */}   
+                  <a target="_blank" rel="noreferrer" href="https://docs.google.com/forms/d/e/1FAIpQLSdjk1Bq-aH20DY0ea1OkOK0CHzx0Xu3HnVWgSFWYKoNmGGAMw/viewform?usp=sf_link">
+                   <button className="vvd" >
+                      Contacto <ArrowRightCircle size={25} />           
+                      </button></a>
+
                 </div>
               )}
             </TrackVisibility>
