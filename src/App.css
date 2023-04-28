@@ -467,6 +467,21 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   z-index: -4;
 }
 
+.proj-imgbx {
+  position: relative;
+  width: 300px;
+  height: 200px;
+  overflow: hidden;
+}
+.proj-imgbx--large {
+  width: 600px;
+  height: 400px;
+  cursor: zoom-out;
+}
+
+
+
+
 /************ Projects Css ************/
 .contact {
   background: linear-gradient(90.21deg, #AA367C -5.91%, #4A2FBD 111.58%);

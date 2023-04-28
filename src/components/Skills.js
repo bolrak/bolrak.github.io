@@ -44,7 +44,7 @@ export const Skills = () => {
                 className="skill-slider"
               >
                 <div className="item">
-                <CircularProgressBar progress={75} />
+                <CircularProgressBar progress={72} />
                   <h5> Javascript</h5>
                 </div>
                 <div className="item">
@@ -56,7 +56,7 @@ export const Skills = () => {
                   <h5> PHP</h5>
                 </div>
                 <div className="item">
-                <CircularProgressBar progress={62} />
+                <CircularProgressBar progress={58} />
                   <h5> React</h5>
                 </div>
                 <div className="item">
@@ -64,7 +64,7 @@ export const Skills = () => {
                   <h5> Laravel</h5>
                 </div>
                 <div className="item">
-                <CircularProgressBar progress={32} />
+                <CircularProgressBar progress={42} />
                   <h5> Symfony</h5>
                 </div>
                 <div className="item">
