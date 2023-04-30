@@ -87,7 +87,7 @@ nav.navbar {
   position: fixed;
   width: 100%;
   top: 0;
-  z-index: 9999;
+  z-index: 9998;
   transition:  0.32s ease-in-out;
 }
 nav.navbar.scrolled {
@@ -229,6 +229,32 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon:before {
 nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 	border-color: transparent;
 }
+
+/************ Modal Css ************/
+.my-modal {
+  position: relative;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  max-width: 80%;
+  max-height: 90%;
+  padding: 2px;
+  border-radius: 5px;
+  z-index: 9999;
+  max-height: calc(100vh - 200px);
+  overflow-y: auto;
+}
+
+.my-modal-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.75);
+  z-index: 9998;
+}
+
 
 /************ Banner Css ************/
 .banner {
@@ -478,9 +504,6 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   height: 400px;
   cursor: zoom-out;
 }
-
-
-
 
 /************ Projects Css ************/
 .contact {
