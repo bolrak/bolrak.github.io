@@ -1,0 +1,20 @@
+<svg version="1.2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 567 150" width="567" height="150">
+	<title>logo-svg</title>
+	<style>
+		tspan { white-space:pre } 
+		.t0 { font-size: 65px;fill: #ffffff;font-weight: 400;font-family: "DejaVuSans", "DejaVu Sans" } 
+		.t1 { font-size: 65px;fill: #ffffff;font-weight: 700;font-family: "DejaVuSans-Bold", "DejaVu Sans" } 
+		.s2 { fill: #ffffff } 
+		.t3 { font-size: 27px;fill: #ffffff;font-weight: 400;font-family: "DejaVuSans", "DejaVu Sans" } 
+	</style>
+	<text id="PABLO INZUNZA" style="transform: matrix(1,0,0,1,-0.516,78.764)" >
+		<tspan x="0" y="0" class="t0">P</tspan><tspan  y="0" class="t0">A</tspan><tspan  y="0" class="t0">B</tspan><tspan  y="0" class="t0">L</tspan><tspan  y="0" class="t0">O</tspan><tspan  y="0" class="t0"> </tspan><tspan  y="0" class="t1">I</tspan><tspan  y="0" class="t1">N</tspan><tspan  y="0" class="t1">Z</tspan><tspan  y="0" class="t1">U</tspan><tspan  y="0" class="t1">N</tspan><tspan  y="0" class="t1">Z</tspan><tspan  y="0" class="t1">A</tspan><tspan  y="0" class="t1">
+</tspan>
+	</text>
+	<path id="Forma 1" class="s2" d="m5 112h172v4h-172z"/>
+	<path id="Forma 1 copy" class="s2" d="m385 112h172v4h-172z"/>
+	<text id="web developer" style="transform: matrix(1,0,0,1,181,121)" >
+		<tspan x="0" y="0" class="t3">w</tspan><tspan  y="0" class="t3">e</tspan><tspan  y="0" class="t3">b</tspan><tspan  y="0" class="t3"> </tspan><tspan  y="0" class="t3">d</tspan><tspan  y="0" class="t3">e</tspan><tspan  y="0" class="t3">v</tspan><tspan  y="0" class="t3">e</tspan><tspan  y="0" class="t3">l</tspan><tspan  y="0" class="t3">o</tspan><tspan  y="0" class="t3">p</tspan><tspan  y="0" class="t3">e</tspan><tspan  y="0" class="t3">r
+</tspan>
+	</text>
+</svg>
