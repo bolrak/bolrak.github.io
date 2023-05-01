@@ -6,6 +6,7 @@ import colorSharp2 from "../assets/img/color-sharp2.png";
 import jobsImg1 from "../assets/jobs/imsajob.png";
 /*********Personal***********/
 import persImg1 from "../assets/personal/discbot.png";
+import persImg2 from "../assets/personal/disc_ayuda.png";
 /*********Courses************/
 import coursImg1 from "../assets/courses/ingles.jpg";
 import coursImg2 from "../assets/courses/simpleday.jpg";
@@ -34,6 +35,11 @@ export const Projects = () => {
       title: "Bot de discord en Python",
       description: "Bot capaz de realizar ciertas interacciones como banear palabras y borrar comentarios",
       imgUrl: persImg1,
+    },
+    {
+      title: "Funcionalidad para Bot discord en JS",
+      description: "Ayude en funcionalidad para automatizar mecanica de servidor de discord",
+      imgUrl: persImg2,
     },
   ];
   const courses = [
