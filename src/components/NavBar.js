@@ -3,9 +3,8 @@ import Container from "react-bootstrap/Container";
 import Nav from "react-bootstrap/Nav";
 import Navbar from "react-bootstrap/Navbar";
 import logo from '../assets/img/logo-web.svg';
-import navIcon1 from '../assets/img/nav-icon1.svg';
-import navIcon2 from '../assets/img/nav-icon2.svg';
-import navIcon3 from '../assets/img/nav-icon3.svg';
+import linkedinLogo from '../assets/img/nav-icon1.svg';
+import githubLogo from '../assets/img/nav-icon3.svg';
 
 // Componente de barra de navegación
 export const NavBar = () => {
@@ -52,18 +51,14 @@ export const NavBar = () => {
           <span className="navbar-text">
             <div className="social-icon">
               <a href="https://www.linkedin.com/in/pablo-inzunza-morales-b9599a150"  target="_blank">
-                <img src={navIcon1} alt="Linkedin" />
+                <img src={linkedinLogo} alt="Linkedin" />
               </a>
               <a href="https://github.com/bolrak" target="_blank">
-                <img src={navIcon3} alt="Github" />
+                <img src={githubLogo} alt="Github" />
               </a>
            
             </div>
-            <a target="_blank" rel="noreferrer" href="https://docs.google.com/forms/d/e/1FAIpQLSdjk1Bq-aH20DY0ea1OkOK0CHzx0Xu3HnVWgSFWYKoNmGGAMw/viewform?usp=sf_link">
-                
-            <button className="vvd" >
-              <span>Contacto</span>
-            </button></a>
+           
           </span>
         </Navbar.Collapse>
       </Container>
