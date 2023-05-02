@@ -87,7 +87,7 @@ export const Banner = () => {
                     {/* Componente TextRotator para rotar el texto con diferentes roles */}
                     <span
                       className="txt-rotate"
-                      dataPeriod="1000"
+                      dataperiod="1000"
                       data-rotate='[ "Programador Web", "Web Designer", "UI/UX Designer" ]'
                     >
                       {/* El texto a rotar se encuentra dentro de la etiqueta span con la clase 'wrap' */}

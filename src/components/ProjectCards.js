@@ -21,11 +21,19 @@ export const ProjectCard = ({ title, description, imgUrl }) => {
           <h4> {title}</h4>
           <span> {description}</span>
         </div>
-        <Modal  scrollable={true} isOpen={isModalOpen} onRequestClose={handleCloseModal} className="my-modal" overlayClassName="my-modal-overlay" onClick={handleCloseModal}>
-          <img src={imgUrl} />
-        </Modal>
-
       </div>
+      <Modal
+        scrollable={true}
+        isOpen={isModalOpen}
+        onRequestClose={handleCloseModal}
+        className="my-modal"
+        overlayClassName="my-modal-overlay"
+      >
+        <div className="modal-content">
+          <img src={imgUrl} />
+
+        </div>
+      </Modal>
     </Col>
   );
 };
