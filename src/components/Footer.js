@@ -8,13 +8,15 @@ export const Footer = () => {
     return (
         <footer className="footer">
             <Container>
+            <br/>
+                        
                 <Row className="align-items-center justify-content-xl-between">
 
                     <Col sm={6}>
-                        <img src={logo} alt="logo" />
+                        <img src={logo} alt="logo"  id="logo-footer" />
                     </Col>
                     <Col sm={6} className="text-center text-sm-end">
-                        <br/>
+            <br/>
                         <div className="social-icon">
                         <a href="https://www.linkedin.com/in/pablo-inzunza-morales-b9599a150"  target="_blank">
                 <img src={linkedinLogo} alt="Linkedin" />
@@ -23,7 +25,7 @@ export const Footer = () => {
                 <img src={githubLogo} alt="Github" />
               </a>
                         </div>
-                        <p>CopyRight 2023. All right reserved. Pablo Inzunza.</p>
+                        <p>Copyright 2023. All rights reserved. Pablo Inzunza.</p>
                     </Col>
                 </Row>
             </Container>

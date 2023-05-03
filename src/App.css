@@ -85,12 +85,31 @@ select:focus {
   }
 }
 
+
+@media screen and (max-width: 991px) {
+  .navbar-nav .nav-link {
+    margin-top: 5px;
+    margin-bottom: 5px;
+  }
+}
+
 p.success {
   color: green;
 }
 
 p.danger {
   color: red;
+}
+
+#logo-img {
+  width: 110px; /* ajusta el ancho a lo que necesites */
+  height: auto; /* ajusta la altura automáticamente en proporción al ancho */
+}
+#logo-footer {
+  width: 200px; /* ajusta el ancho a lo que necesites */
+  height: auto; /* ajusta la altura automáticamente en proporción al ancho */
+  margin: auto; /* centra horizontalmente */
+  display: block; /* asegura que la imagen sea un bloque para que se pueda centrar horizontalmente */
 }
 /************ Navbar Css ************/
 nav.navbar {
@@ -107,6 +126,7 @@ nav.navbar.scrolled {
 }
 nav.navbar a.navbar-brand {
   width: 9%;
+  margin-right: 2rem;
 }
 nav.navbar .navbar-nav .nav-link.navbar-link {
   font-weight: 400;
